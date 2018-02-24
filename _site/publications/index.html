@@ -15,7 +15,28 @@
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
 
+<!-- Start of Woopra Code -->
+<script>
+(function(){
+        var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+})("woopra");
 
+woopra.config({
+    domain: 'www.georgekontoudis.com',
+    download_tracking: true,
+    outgoing_tracking: true,
+    ping_interval: 30000
+});
+    
+window.woopra.track();
+ 
+// The line above is equivalent to:
+woopra.track("pv", {
+    url: window.location.pathname,
+    title: document.title
+});
+</script>
+<!-- End of Woopra Code -->
 
 
 </head>

@@ -28,7 +28,13 @@ woopra.config({
     ping_interval: 30000
 });
     
-woopra.track();
+window.woopra.track();
+ 
+// The line above is equivalent to:
+woopra.track("pv", {
+    url: window.location.pathname,
+    title: document.title
+});
 </script>
 <!-- End of Woopra Code -->
 
@@ -172,7 +178,7 @@ printing technique.</p>
 
 <li>
 <strong>George P. Kontoudis</strong>, Minas V. Liarokapis, Agisilaos G. Zisimatos, Christoforos I. Mavrogiannis and Kostas J. Kyriakopoulos, “Open-Source, Anthropomorphic, Underactuated Robot Hands with a Selectively Lockable Differential Mechanism: Towards Affordable Prostheses”, <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, Hamburg, 2015.<br />
-<b><a href="Kontoudis2015IROS.bib" class="class2"> [BibTeX] </a> <a href="IROS2015_Kontoudis_AffordableProstheses.pdf" class="class2">[PDF]</a> <a href="https://www.youtube.com/watch?v=LoG_JTOIMO4" target="”_blank”">[Video]</a></b>
+<b><a href="/publications/Kontoudis2015IROS.bib" class="class2"> [BibTeX] </a> <a href="/publications/IROS2015_Kontoudis_AffordableProstheses.pdf" class="class2">[PDF]</a> <a href="https://www.youtube.com/watch?v=LoG_JTOIMO4" target="”_blank”">[Video]</a></b>
 </li>
 </ol>
 <hr /><br />
