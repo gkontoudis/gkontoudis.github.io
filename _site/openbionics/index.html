@@ -27,13 +27,11 @@ woopra.config({
     ping_interval: 30000
 });
     
-window.woopra.track();
+woopra.identify();
+    
+woopra.track();
  
-// The line above is equivalent to:
-woopra.track("pv", {
-    url: window.location.pathname,
-    title: document.title
-});
+
 </script>
 <!-- End of Woopra Code -->
 
