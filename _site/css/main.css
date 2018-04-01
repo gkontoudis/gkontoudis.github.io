@@ -796,3 +796,19 @@ ol > li:before {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+.myBox {
+border: none;
+padding: 5px;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 1em;
+line-height: 1.5;
+font-weight: 300;
+color: #111;
+background-color: #FFFFFF;
+-webkit-text-size-adjust: 100%;
+height: 210px;
+overflow: auto;
+}
+
+
