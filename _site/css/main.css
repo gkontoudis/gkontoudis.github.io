@@ -609,6 +609,7 @@ ol {
 
 ol > li {
   counter-increment: item;
+    
   list-style: none; }
 
 ol > li:before {
