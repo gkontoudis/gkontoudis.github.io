@@ -345,16 +345,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(950px - (22px * 2));
-  max-width: calc(950px - (22px * 2));
+  max-width: -webkit-calc(960px - (22px * 2));
+  max-width: calc(960px - (22px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 22px;
-  padding-left: 22px; }
+  padding-left: 22px;}
   @media screen and (max-width: 950px) {
     .wrapper {
-      max-width: -webkit-calc(950px - (22px));
-      max-width: calc(950px - (22px));
+      max-width: -webkit-calc(960px - (22px));
+      max-width: calc(960px - (22px));
       padding-right: 11px;
       padding-left: 11px; } }
 
@@ -578,8 +578,8 @@ html {
   overflow-y: scroll; }
 
 ul.listing {
-  list-style-type: none;
-  margin-left: 0px; }
+  list-style-type: outside;
+  margin-left: 1em; }
 
 ul.listing li.listing-seperator {
   padding-top: 15px;
@@ -599,6 +599,155 @@ ul.listing li.listing-item a {
   font-family: 'Titillium Web', sans-serif;
   text-align: justify; }
 
+jl {
+  width: 100%;
+  text-align: justify;
+  word-wrap: break-word;
+  /**list-style-type: disc;
+  list-style-position: inside;
+  padding: 10px 0 10px 20px;
+  text-indent: -1em;*/
+  counter-reset: none;
+  margin-left: auto; }
+
+jl > li {
+  counter-increment: item;
+    
+  list-style: none; }
+
+jl > li:before {
+  content: "[J" counter(item) "] ";
+  font-weight: bold; }
+
+jlfrontiers {
+  width: 100%;
+  text-align: justify;
+  word-wrap: break-word;
+  /**list-style-type: disc;
+  list-style-position: inside;
+  padding: 10px 0 10px 20px;
+  text-indent: -1em;*/
+  counter-reset: none;
+  margin-left: auto; }
+
+jlfrontiers > li {
+  counter-increment: item;
+    
+  list-style: none; }
+
+jlfrontiers > li:before {
+  content: "[FRONTIERS19] ";
+  font-weight: bold; }
+
+jltnnls {
+  width: 100%;
+  text-align: justify;
+  word-wrap: break-word;
+  /**list-style-type: disc;
+  list-style-position: inside;
+  padding: 10px 0 10px 20px;
+  text-indent: -1em;*/
+  counter-reset: none;
+  margin-left: auto; }
+
+jltnnls > li {
+  counter-increment: item;
+    
+  list-style: none; }
+
+jltnnls > li:before {
+  content: "[TNNLS19] ";
+  font-weight: bold; }
+
+cl {
+  width: 100%;
+  text-align: justify;
+  word-wrap: break-word;
+  /**list-style-type: disc;
+  list-style-position: inside;
+  padding: 10px 0 10px 20px;
+  text-indent: -1em;*/
+  counter-reset: none;
+  margin-left: auto; }
+
+cl > li {
+  counter-increment: item;
+    
+  list-style: none; }
+
+cl > li:before {
+  content: "[C" counter(item) "] ";
+  font-weight: bold; }
+
+cliros {
+  width: 100%;
+  text-align: justify;
+  word-wrap: break-word;
+  list-style: none;
+  counter-reset: none;
+  margin-left: auto; }
+
+cliros > li {
+  counter-increment: item;
+    
+  list-style: none; }
+
+cliros > li:before {
+  content: "[IROS15] ";
+  font-weight: bold; }
+
+clacc {
+  width: 100%;
+  text-align: justify;
+  word-wrap: break-word;
+  list-style: none;
+  counter-reset: none;
+  margin-left: auto; }
+
+clacc > li {
+  counter-increment: item;
+    
+  list-style: none; }
+
+clacc > li:before {
+  content: "[ACC19] ";
+  font-weight: bold; }
+
+clicorr {
+  width: 100%;
+  text-align: justify;
+  word-wrap: break-word;
+  list-style: none;
+  counter-reset: none;
+  margin-left: auto; }
+
+clicorr > li {
+  counter-increment: item;
+    
+  list-style: none; }
+
+clicorr > li:before {
+  content: "[ICORR19] ";
+  font-weight: bold; }
+
+cladprl {
+  width: 100%;
+  text-align: justify;
+  word-wrap: break-word;
+  list-style: none;
+  counter-reset: none;
+  margin-left: auto; }
+
+cladprl > li {
+  counter-increment: item;
+    
+  list-style: none; }
+
+cladprl > li:before {
+  content: "[ADPRL17] ";
+  font-weight: bold; }
+
+
 ol {
   width: 100%;
   text-align: justify;
@@ -613,7 +762,78 @@ ol > li {
   list-style: none; }
 
 ol > li:before {
-  content: "[" counter(item) "] ";
+  content: "[O" counter(item) "] ";
+  font-weight: bold; }
+
+tl {
+  width: 100%;
+  text-align: justify;
+  word-wrap: break-word;
+  /**list-style-type: disc;
+  list-style-position: inside;
+  padding: 10px 0 10px 20px;
+  text-indent: -1em;*/
+  counter-reset: none;
+  margin-left: auto; }
+
+tl > li {
+  counter-increment: item;
+    
+  list-style: none; }
+
+tl > li:before {
+  content: "[T" counter(item) "] ";
+  font-weight: bold; }
+
+tlntua {
+  width: 100%;
+  text-align: justify;
+  word-wrap: break-word;
+  list-style: none;
+  counter-reset: none;
+  margin-left: auto; }
+
+tlntua > li {
+  counter-increment: item;
+    
+  list-style: none; }
+
+tlntua > li:before {
+  content: "[THESIS16] ";
+  font-weight: bold; }
+
+tlvtme {
+  width: 100%;
+  text-align: justify;
+  word-wrap: break-word;
+  list-style: none;
+  counter-reset: none;
+  margin-left: auto; }
+
+tlvtme > li {
+  counter-increment: item;
+    
+  list-style: none; }
+
+tlvtme > li:before {
+  content: "[THESIS18] ";
+  font-weight: bold; }
+
+tlpuoas {
+  width: 100%;
+  text-align: justify;
+  word-wrap: break-word;
+  list-style: none;
+  counter-reset: none;
+  margin-left: auto; }
+
+tlpuoas > li {
+  counter-increment: item;
+    
+  list-style: none; }
+
+tlpuoas > li:before {
+  content: "[THESIS10] ";
   font-weight: bold; }
 
 /**
@@ -811,9 +1031,3 @@ background-color: #FFFFFF;
 height: 210px;
 overflow: auto;
 }
-
-
-
-
-
-
