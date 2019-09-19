@@ -617,7 +617,8 @@ jl > li {
 
 jl > li:before {
   content: "[J" counter(item) "] ";
-  font-weight: bold; }
+    color: maroon;
+  /**font-weight: bold;*/ }
 
 jlfrontiers {
   width: 100%;
@@ -677,7 +678,8 @@ cl > li {
 
 cl > li:before {
   content: "[C" counter(item) "] ";
-  font-weight: bold; }
+    color: maroon;
+  /**font-weight: bold;*/  }
 
 cliros {
   width: 100%;
@@ -763,7 +765,8 @@ ol > li {
 
 ol > li:before {
   content: "[O" counter(item) "] ";
-  font-weight: bold; }
+    color: maroon;
+  /**font-weight: bold;*/  }
 
 tl {
   width: 100%;
@@ -783,7 +786,8 @@ tl > li {
 
 tl > li:before {
   content: "[T" counter(item) "] ";
-  font-weight: bold; }
+    color: maroon;
+  /**font-weight: bold;*/  }
 
 tlntua {
   width: 100%;
