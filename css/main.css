@@ -55,7 +55,7 @@ a.bibbase.author.link[href="http://cs.stanford.edu/people/davidknowles/"] {
 .site-nav .menu > li {
   border-bottom: 3px solid transparent;
   display: inline-block;
-  height: 23px;
+  height: 25px;
   line-height: normal;
   margin: 12px 0 0 20px;
   padding: 0 0 2px 0;
@@ -137,23 +137,23 @@ a.bibbase.author.link[href="http://cs.stanford.edu/people/davidknowles/"] {
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
-      top: 9px;
+      top: 8px;
       right: 30px;
       background-color: #FFFFFF;
-      border: 1px solid white;
-      border-radius: 5px;
+      border: 3px solid white;
+      border-radius: 10px;
       text-align: right; }
       .site-nav .menu-icon {
         display: block;
         float: right;
-        width: 36px;
-        height: 26px;
+        width: 30px;
+        height: 23px;
         line-height: 0;
         padding-top: 10px;
         text-align: center; }
         .site-nav .menu-icon > svg {
           width: 18px;
-          height: 15px; }
+          height: 17px; }
           .site-nav .menu-icon > svg path {
             fill: black; }
       .site-nav .trigger {
@@ -161,14 +161,15 @@ a.bibbase.author.link[href="http://cs.stanford.edu/people/davidknowles/"] {
         display: none; }
       .site-nav:hover .trigger {
         display: block;
-        padding-bottom: 5px; }
+        padding-bottom: 5px ; }
       .site-nav .page-link {
         display: block;
-        padding: 5px 10px; } }
+        padding: 3px 10px; } }
 
 @media only screen and (max-width: 600px) {
   .site-nav h1 {
     border-bottom: 3px solid transparent;
+      background-color: #FFFFFF;
     cursor: pointer;
     display: none;
     /* Standard. IE8+, Saf, FF3+ */
@@ -180,19 +181,19 @@ a.bibbase.author.link[href="http://cs.stanford.edu/people/davidknowles/"] {
 
   .site-nav .menu {
     border: 3px solid transparent;
-    border-top: 0;
+    border-top: 0px;
     /* bg and border colors set in header */
     -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
     -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.8);
     /* Hide until activated */
     display: block;
-    left: -3px;
-    min-width: 215px;
-    /*		margin-top: 36px; */
-    padding: 4px 0;
+    left: 0px;
+    min-width: 200px;
+    margin-top: 0px; 
+    padding: 5px 5px;
     position: relative;
-    right: -3px;
+    right: 0px;
     z-index: 999; }
 
   .site-nav .menu.open {
@@ -200,7 +201,7 @@ a.bibbase.author.link[href="http://cs.stanford.edu/people/davidknowles/"] {
 
   .site-nav .menu li {
     display: block;
-    margin: 0;
+    margin: -5px;
     color: #522d80; }
 
   .site-nav ul.menu a {
@@ -1000,14 +1001,38 @@ tlpuoas > li:before {
   background-color: #f3f3f3;
   font-size: .9em;
   padding: 2px 8px 3px 8px;
-  margin: 1px 0 0 0; }
+  margin: 10px 0 0 0; }
 
 .wp-caption dt {
   margin: 0; }
 
 .wp-caption img {
   display: block;
-  margin: 0;
+  margin: 26px 0px 0px 0px;
+  padding: 0;
+  border: 0; }
+
+.wp-caption-vt {
+  background-color: #FFFFFF;
+  text-align: center;
+  border: none;
+  font-size: 0.90em;
+  overflow: hidden;
+  position: relative; }
+
+.wp-caption-vt dd {
+  color: #000000;
+  background-color: #f3f3f3;
+  font-size: .9em;
+  padding: 2px 8px 3px 8px;
+  margin: 10px 0 0 0; }
+
+.wp-caption-vt dt {
+  margin: 0; }
+
+.wp-caption-vt img {
+  display: block;
+  margin: 0px 0px 0px 0px;
   padding: 0;
   border: 0; }
 
