@@ -1,10 +1,10 @@
 /**
  * Bibbase
- 
-a.bibbase.author.link[href="http://cs.stanford.edu/people/davidknowles/"] {
+ */ 
+a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
   font-weight: bold;
 }
-*/
+
 
 /**
  * Site header
@@ -252,7 +252,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: 'Titillium Web', Verdana, Helvetica, Arial,  Titillium Web, sans-serif;
+      /**"Palatino Linotype", "Book Antiqua", Palatino, serif;
+       */
   font-size: 1em;
   line-height: 1.5;
   font-weight: 300;
@@ -302,16 +304,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200; }
 
 /**
- * Links
+ * Links #002080 #828282 #696969 #E87722 
  */
 a {
-  color: #002080;
+  color: 	#8B1F41  ;
   text-decoration: none; }
   a:visited {
     /*    color: darken($brand-color, 15%); */ }
   a:hover {
     color: #111;
     text-decoration: none; }
+
+
 
 /* .post-content a, .home a {
 	font-weight: 500;
@@ -1058,13 +1062,15 @@ tlpuoas > li:before {
 .myBox {
 border: none;
 padding: 5px;
-font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-family: 'Titillium Web', Verdana, Helvetica, Arial,  Titillium Web, sans-serif;
+      /**"Palatino Linotype", "Book Antiqua", Palatino, serif;
+       */
 font-size: 1em;
 line-height: 1.5;
 font-weight: 300;
 color: #111;
 background-color: #FFFFFF;
 -webkit-text-size-adjust: 100%;
-height: 210px;
+height: 380px;
 overflow: auto;
 }
