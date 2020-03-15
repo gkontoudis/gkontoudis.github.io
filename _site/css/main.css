@@ -166,6 +166,19 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
         display: block;
         padding: 3px 10px; } }
 
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+{
+    // insert here your custom styles
+    #left-sidebar .logo .nav  {
+       display:none;
+    }
+}
+
+
+
 @media only screen and (max-width: 600px) {
   .site-nav h1 {
     border-bottom: 3px solid transparent;
@@ -238,7 +251,13 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
     padding-left: 16px; }
 
   .site-nav .sub-menu li.current-menu-item > a {
-    border: 0; } }
+    border: 0; }
+        
+
+}
+
+
+
 /**
  * Reset some basic elements
  */
