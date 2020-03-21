@@ -74,7 +74,7 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
   letter-spacing: 0;
   line-height: 1.2em;
   padding: 4px 10px;
-  color: #522d80; }
+  color:  #8B1F41; /*#522d80;*/ }
 
 .site-nav .sub-menu a:hover {
   color: #303030; }
@@ -215,11 +215,11 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
   .site-nav .menu li {
     display: block;
     margin: -5px;
-    color: #522d80; }
+    color:  #8B1F41; /*#522d80;*/ }
 
   .site-nav ul.menu a {
     background: #fff;
-    color: #522d80; }
+    color: #8B1F41; /*#522d80;*/ }
 
   .site-nav a,
   .site-nav li.current-menu-item > a {
