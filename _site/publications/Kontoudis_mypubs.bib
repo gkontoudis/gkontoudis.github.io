@@ -14,6 +14,7 @@
 
 @article{Kontoudis2019TNNLS,
   title={Kinodynamic Motion Planning With Continuous-Time Q-Learning: An Online, Model-Free, and Safe Navigation Framework},
+  abstract = {This paper presents an online kinodynamic motion planning algorithmic framework using asymptotically optimal rapidly-exploring random tree (RRT*) and continuous-time Q-learning, which we term as RRT-Q*. We formulate a model-free Q-based advantage function and we utilize integral reinforcement learning to develop tuning laws for the online approximation of the optimal cost and the optimal policy of continuous-time linear systems. Moreover, we provide rigorous Lyapunov-based proofs for the stability of the equilibrium point, which results in asymptotic convergence properties. A terminal state evaluation procedure is introduced to facilitate the online implementation. We propose a static obstacle augmentation and a local replanning framework, which are based on topological connectedness, to locally recompute the robot's path and ensure collision-free navigation. We perform simulations and a qualitative comparison to evaluate the efficacy of the proposed methodology.},
   author={Kontoudis, George P and Vamvoudakis, Kyriakos G},
   journal={IEEE Transactions on Neural Networks and Learning Systems (TNNLS)},
   year={2019},
@@ -30,6 +31,7 @@
 
 @inproceedings{Kontoudis2019WUWNET,
   title={A Comparison of Kriging and Cokriging for Estimation of Underwater Acoustic Communication Performance},
+  abstract = {Mobile underwater communication network nodes, such as autonomous underwater vehicles, can use estimates of underwater acoustic communication performance to anticipate where they are likely to be connected to the communication network. In this paper, we consider the challenge of estimating a spatial field that represents underwater acoustic communication performance from a set of measurements. Kriging, which is widely used in geostatistics, has been previously used to estimate the communication performance at unknown locations, by performing spatial extrapolation. We compare kriging to cokriging where the latter is a bivariate estimation method. The methodology yields estimates of communication performance at desired locations based on measurements acquired at other locations. Moreover, a variance measure is provided that characterizes the uncertainty of the estimation. We present the structure of the proposed estimation technique and its computational complexity. We evaluate the efficacy of the technique by considering an approximate linear-log model of the communication performance, environmental noise, and a direct comparison of kriging and cokriging results. We provide two sets of simulations in which the proposed multivariate cokriging framework outperforms the univariate kriging in the estimation process.},
   author={Kontoudis, George P and Stilwell, Daniel J.},
   booktitle={ACM International Conference on Underwater Networks \& Systems (WuWNet)},
   pages={1--8},
@@ -44,6 +46,7 @@
 
 @inproceedings{Kontoudis2019Humanoids,
   title={An Adaptive, Humanlike Robot Hand with Selective Interdigitation: Towards Robust Grasping and Dexterous, In-Hand Manipulation},
+  abstract = {This paper presents an adaptive robot hand that is capable of performing selective interdigitation, robust grasping, and dexterous, in-hand manipulation. The design consists of underactuated, compliant, anthropomorphic robot fingers that are implemented with flexure joints based on elastomer materials (urethane rubber). The metacarpophalangeal (MCP) joint of each finger can achieve both flexion/extension and abduction/adduction. The use of differential mechanisms simplifies the actuation scheme, as we utilize only two actuators for four fingers, achieving affordable dexterity. The two actuators offer increased power transmission during the execution of grasping and manipulation tasks. The importance of the thumb is highlighted with the use of two individual tendon-routing systems for its control. An analytical model is employed to derive the rotational stiffness of the finger flexure joints and select appropriate actuators. Selective interdigitation allows the robot hand to switch from pinch grasp configurations to power grasp configurations optimizing the performance of the device for specific objects. The design can be fabricated with off-the-shelf materials and rapid prototyping techniques, while its efficiency has been validated using an extensive set of experimental paradigms that involved the execution of complex tasks with everyday life objects.},
   author={Kontoudis, George P and Liarokapis, Minas and Vamvoudakis, Kyriakos G},
   booktitle={IEEE-RAS International Conference on Humanoid Robots (Humanoids)},
   pages={251--258},
@@ -58,6 +61,7 @@
 
 @inproceedings{Kontoudis2019ACC,
   title={Robust Kinodynamic Motion Planning using Model-Free Game-Theoretic Learning},
+  abstract = {This paper presents an online, robust, and model-free motion planning framework for kinodynamic systems. In particular, we employ a Q-learning algorithm for a two player zero-sum dynamic game to account for worst-case disturbances and kinodynamic constraints. We use one critic, and two actor approximators to solve online the finite horizon minimax problem with a form of integral reinforcement learning. We then leverage a terminal state evaluation structure to facilitate the online implementation. A static obstacle augmentation, and a local replanning framework is presented to guarantee safe kinodynamic motion planning. Rigorous Lyapunov-based proofs are provided to guarantee closed-loop stability, while maintaining robustness and optimality. We finally evaluate the efficacy of the proposed framework with simulations and we provide a qualitative comparison of kinodynamic motion planning techniques.},
   author={Kontoudis, George P and Vamvoudakis, Kyriakos G},
   booktitle={American Control Conference (ACC)},
   pages={273--278},
@@ -72,6 +76,7 @@
 
 @article{Kontoudis2019FRONTIERS,
   title={An Adaptive Actuation Mechanism for Anthropomorphic Robot Hands},
+  abstract = {This paper presents an adaptive actuation mechanism that can be employed for the development of anthropomorphic, dexterous robot hands. The tendon-driven actuation mechanism achieves both flexion/extension and adduction/abduction on the finger's metacarpophalangeal joint using two actuators. Moment arm pulleys are employed to drive the tendon laterally and achieve a simultaneous execution of abduction and flexion motion. Particular emphasis has been given to the modeling and analysis of the actuation mechanism. More specifically, the analysis determines specific values for the design parameters for desired abduction angles. Also, a model for spatial motion is provided that relates the actuation modes with the finger motions. A static balance analysis is performed for the computation of the tendon force at each joint. A model is employed for the computation of the stiffness of the rotational flexure joints. The proposed mechanism has been designed and fabricated with the hybrid deposition manufacturing technique. The efficiency of the mechanism has been validated with experiments that include the assessment of the role of friction, the computation of the reachable workspace, the assessment of the force exertion capabilities, the demonstration of the feasible motions, and the evaluation of the grasping and manipulation capabilities. An anthropomorphic robot hand equipped with the proposed actuation mechanism was also fabricated to evaluate its performance. The proposed mechanism facilitates the collaboration of actuators to increase the exerted forces, improving hand dexterity and allowing the execution of dexterous manipulation tasks.},
   author={Kontoudis, George P and Liarokapis, Minas and Vamvoudakis, Kyriakos G and Furukawa, Tomonari},
   journal={Frontiers in Robotics and AI},
   volume={6},
@@ -87,6 +92,7 @@
 
 @inproceedings{Kontoudis2019ICORR,
   title={A Compliant, Underactuated Finger for Anthropomorphic Hands},
+  abstract = {This paper presents a compliant, underactuated finger for the development of anthropomorphic robotic and prosthetic hands. The finger achieves both flexion/extension and adduction/abduction on the metacarpophalangeal joint, by using two actuators. The design employs moment arm pulleys to drive the tendon laterally and amplify the abduction motion, while also maintaining the flexion motion. Particular emphasis has been given to the analysis of the mechanism. The proposed finger has been fabricated with the hybrid deposition manufacturing technique and the actuation mechanism's efficiency has been validated with experiments that include the computation of the reachable workspace, the assessment of the exerted forces at the fingertip, the demonstration of the feasible motions, and the presentation of the grasping and manipulation capabilities. The proposed mechanism facilitates the collaboration of the two actuators to increase the exerted finger forces. Moreover, the extended workspace allows the execution of dexterous manipulation tasks.},
   author={Kontoudis, George P and Liarokapis, Minas and Vamvoudakis, Kyriakos G},
   booktitle={IEEE/RAS-EMBS International Conference on Rehabilitation Robotics (ICORR)},
   pages={682--688},
@@ -110,6 +116,7 @@
 
 @inproceedings{Tsoukalas2017ADPRL,
   title={Active-{B}ayesian learning for cooperation connectivity in dynamic cyber-physical-human systems},
+  abstract = {This work presents a novel learning framework for instrumental utility of behavioral connectivity within dynamic social networks. The combination of active and Bayesian learning techniques enables the proposed algorithm to learn how to predict a likelihood of group-stages of cooperation, according to observable behavioral connectivity within a dynamic social network. A labeler of social network data defines the group-stages of cooperation, and classifies observed behavioral connectivity according to them, in order to populate a training data pool for the proposed learning algorithm. Moreover, a multiple ordinary least squares (OLS) regression, is used to estimate the behavioral intention of social actors, in order to automate interventions for the improvement of actors' behavioral utility within the dynamic social network. We illustrate our framework through simulation examples that showcase the efficiency of the proposed algorithm to accurately predict predefined group-stages of cooperation in human-driven environments.},
   author={Tsoukalas, Kyriakos D and Kontoudis, George P  and Vamvoudakis, Kyriakos G},
   booktitle={IEEE Symposium Series on Computational Intelligence (SSCI)},
   pages={1--7},
@@ -131,6 +138,7 @@
 
 @inproceedings{Kontoudis2015IROS,
   title={Open-source, anthropomorphic, underactuated robot hands with a selectively lockable differential mechanism: Towards affordable prostheses},
+  abstract = {In this paper we present an open-source design for the development of low-complexity, anthropomorphic, underactuated robot hands with a selectively lockable differential mechanism. The differential mechanism used is a variation of the whiffletree (or seesaw) mechanism, which introduces a set of locking buttons that can block the motion of each finger. The proposed design is unique since with a single motor and the proposed differential mechanism the user is able to control each finger independently and switch between different grasping postures in an intuitive manner. Anthropomorphism of robot structure and motion is achieved by employing in the design process an index of anthropomorphism. The proposed robot hands can be easily fabricated using low-cost, off-the-shelf materials and rapid prototyping techniques. The efficacy of the proposed design is validated through different experimental paradigms involving grasping of everyday life objects and execution of daily life activities. The proposed hands can be used as affordable prostheses, helping amputees regain their lost dexterity.},
   author={Kontoudis, George P and Liarokapis, Minas V and Zisimatos, Agisilaos G and Mavrogiannis, Christoforos I and Kyriakopoulos, Kostas J},
   booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   pages={5857--5862},
