@@ -14,8 +14,9 @@
 #group_thesis div.bibbase_group i:after { content: " Diploma's Thesis" }
 #group_techreport div.bibbase_group i:after { content: " Technical Report" }
 
-#bibbase_header a[onclick="groupby('downloads')"] { display: none; }
 #bibbase_header a[onclick="groupby('author')"] { display: none; }
+#bibbase_header a[onclick="groupby('downloads')"] { display: none; }
+
 
 
 a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
