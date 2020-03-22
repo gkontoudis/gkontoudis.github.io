@@ -1,6 +1,11 @@
 /* ------------------------------------------------- */
 /* BibBase
 */
+a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
+  font-weight: bold;
+}
+    
+#bibbase_header a[onclick="groupby('author')"] { display: none; }
 
 #group_article div.bibbase_group i+span { display: none; }
 #group_inproceedings div.bibbase_group i+span { display: none; }
@@ -14,15 +19,8 @@
 #group_thesis div.bibbase_group i:after { content: " Diploma's Thesis" }
 #group_techreport div.bibbase_group i:after { content: " Technical Report" }
 
-#bibbase_header a[onclick="groupby('author')"] { display: none; }
+
 #bibbase_header a[onclick="groupby('downloads')"] { display: none; }
-
-
-
-a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
-  font-weight: bold;
-}
-
 
 /**
  * Site header
