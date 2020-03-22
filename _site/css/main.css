@@ -20,7 +20,7 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
 #group_techreport div.bibbase_group i:after { content: " Technical Report" }
 
 
-#bibbase_header a[onclick="groupby('downloads')"] { display: none; }
+/*#bibbase_header a[onclick="groupby('downloads')"] { display: none; }*/
 
 /**
  * Site header
