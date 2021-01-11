@@ -14,6 +14,7 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
 #group_techreport div.bibbase_group i+span { display: none; }
 
 #group_article div.bibbase_group i:after { content: " Referred Journal Articles" }
+#group_incollection div.bibbase_group i:after { content: " Book Chapters" }
 #group_inproceedings div.bibbase_group i:after { content: " Referred Conference Publications" }
 #group_mastersthesis div.bibbase_group i:after { content: " Master's Thesis" }
 #group_thesis div.bibbase_group i:after { content: " Diploma's Thesis" }
