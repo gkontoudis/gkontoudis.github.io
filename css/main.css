@@ -8,6 +8,7 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
 #bibbase_header a[onclick="groupby('author_short')"] { display: none; }
 
 #group_article div.bibbase_group i+span { display: none; }
+#group_incollection div.bibbase_group i+span { display: none; }
 #group_inproceedings div.bibbase_group i+span { display: none; }
 #group_mastersthesis div.bibbase_group i+span { display: none; }
 #group_thesis div.bibbase_group i+span { display: none; }
