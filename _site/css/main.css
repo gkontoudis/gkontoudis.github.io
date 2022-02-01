@@ -25,7 +25,7 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
 #bibbase_header a[onclick="groupby('downloads')"] { display: none; }
 
 /**
- * Site header
+ * Site header, gray: #828282, gold UMD: #FFD520
  */
 .site-header {
   border-top: 0px solid black;
@@ -341,10 +341,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200; }
 
 /**
- * Links #002080 #828282 #696969 #E87722 
+ * Links #002080 #828282 #696969 #E87722, Maroon VT: #8B1F41, Red UMD: #E03A3E
  */
 a {
-  color: 	#8B1F41  ;
+  color: 	#8B1F41   ;
   text-decoration: none; }
   a:visited {
     /*    color: darken($brand-color, 15%); */ }

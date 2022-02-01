@@ -1,13 +1,26 @@
-@phdthesis{Kontoudis2022communication,
+@incollection{Kontoudis2021BCI,
+	title={RRT-QX: Real-Time Kinodynamic Motion Planning in Dynamic Environments with Continuous-Time Reinforcement Learning},
+	author={Kontoudis, George P and Vamvoudakis, Kyriakos G and Xu, Zirui},
+	editor      = {Wei, Bin},
+	booktitle   = {Brain and Cognitive Intelligence: Control in Robotics},
+	publisher   = {Taylor \& Francis Group, CRC Press},
+	abstract = {This chapter presents a real-time kinodynamic motion planning technique for linear systems with completely unknown dynamics in environments with unpredictable obstacles. The methodology incorporates: i) a sampling-based algorithm for path planning and fast replanning; and ii) continuous-time Q-learning for the solution of finite-horizon optimal control problems in real-time. The path planner produces a set of waypoints that dynamically change in time according to the unpredictably appearing obstacles, while the Q-learning controller is responsible for optimal waypoint navigation. The efficacy of the methodology has been validated with simulations. },
+	year={2022},
+	keywords={motion planning, reinforcement learning, optimal control},
+	url_video = {https://youtu.be/Sxu04gSdsEA},
+	note = {[to appear]}
+}
+
+@phdthesis{Kontoudis2021communication,
     author    = {Kontoudis, George P},
     title     = {Communication-Aware, Scalable Gaussian Processes for Decentralized Exploration},
     school    = {Virginia Tech},
-    year      = {2022},
-    keywords={Gaussian processes, spatial statistics, distributed optimization, underwater vehicles, wireless communications, decentralized networks}
+    year      = {2021},
+    keywords={Gaussian processes, spatial statistics, distributed optimization, underwater vehicles, wireless communications, decentralized networks},
+    url_html = {https://vtechworks.lib.vt.edu/handle/10919/107923}
 }
 
 %    url_pdf  = {},
-%   url_html = {}
 
 @inproceedings{Netter2021CDC,
   title={Bounded Rational RRT-QX: Multi-Agent Motion Planning in Dynamic Human-Like Environments Using Cognitive Hierarchy and Q-Learning},
@@ -87,19 +100,6 @@
   keywords={underwater vehicles, wireless communications, spatial statistics},
   url_pdf = {RAS_accepted_Kontoudis_Prediction_of_Communication_Performance.pdf},
   doi = {10.1016/j.robot.2021.103811}
-}
-
-@incollection{Kontoudis2021BCI,
-	title={RRT-QX: Real-Time Kinodynamic Motion Planning in Dynamic Environments with Continuous-Time Reinforcement Learning},
-	author={Kontoudis, George P and Vamvoudakis, Kyriakos G and Xu, Zirui},
-	editor      = {Wei, Bin},
-	booktitle   = {Brain and Cognitive Intelligence: Control in Robotics},
-	publisher   = {Taylor \& Francis Group, CRC Press},
-	abstract = {This chapter presents a real-time kinodynamic motion planning technique for linear systems with completely unknown dynamics in environments with unpredictable obstacles. The methodology incorporates: i) a sampling-based algorithm for path planning and fast replanning; and ii) continuous-time Q-learning for the solution of finite-horizon optimal control problems in real-time. The path planner produces a set of waypoints that dynamically change in time according to the unpredictably appearing obstacles, while the Q-learning controller is responsible for optimal waypoint navigation. The efficacy of the methodology has been validated with simulations. },
-	year={2021},
-	keywords={motion planning, reinforcement learning, optimal control},
-	url_video = {https://youtu.be/Sxu04gSdsEA},
-	note = {[to appear]}
 }
 
 
