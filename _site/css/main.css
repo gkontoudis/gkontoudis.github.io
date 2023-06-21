@@ -23,13 +23,13 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
 #bibbase_header a[onclick="groupby('downloads')"] { display: none; }
 
 /**
- * Site header, gray: #828282, gold UMD: #FFD520
+ * Site header, gray: #828282, gold UMD: #FFD520, Light blue Mines: #879EC3, Blaster blue Mines: #09396C, Dark blue MINES: #21314d
  */
 .site-header {
   border-top: 0px solid black;
-  border-bottom: 4px solid #828282;
+  border-bottom: 4px solid #879EC3; /*#828282*/
   min-height: 56px;
-  background: #303030;
+  background: #21314d; /*#303030*/
   position: relative; }
 
 .site-title {
@@ -94,7 +94,7 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
 }
 
 .site-nav .sub-menu a:hover {
-  color: #303030; }
+  color: #21314d; /*#303030;*/ }
 
 .site-nav .sub-menu {
   background: #ffffff;
@@ -103,7 +103,7 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
   z-index: 2147483647; }
 
 .site-nav .sub-menu li.current-menu-item > a {
-  border-left-color: #303030;
+  border-left-color: #21314d; /*#303030;*/;
   border-right-color: #828282;
   border-right: 0px; }
 
@@ -147,7 +147,7 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
     display: none; }
   .site-nav .page-link {
     color: #ffffff;
-    background: #303030;
+    background: #21314d; /*#303030;*/
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
