@@ -90,7 +90,8 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
   letter-spacing: 0;
   line-height: 1.2em;
   padding: 4px 10px;
-  color:  #8B1F41; /*#522d80;*/ }
+  color:  #CC4628; /*#8B1F41; #522d80;*/ 
+}
 
 .site-nav .sub-menu a:hover {
   color: #303030; }
@@ -231,11 +232,11 @@ a.bibbase.author.link[href="http://www.georgekontoudis.com/"] {
   .site-nav .menu li {
     display: block;
     margin: -5px;
-    color:  #8B1F41; /*#522d80;*/ }
+    color:  #CC4628; /*#8B1F41; #522d80;*/ }
 
   .site-nav ul.menu a {
     background: #fff;
-    color: #8B1F41; /*#522d80;*/ }
+    color: #CC4628; /*#8B1F41; #522d80;*/ }
 
   .site-nav a,
   .site-nav li.current-menu-item > a {
@@ -339,10 +340,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200; }
 
 /**
- * Links #002080 #828282 #696969 #E87722, Maroon VT: #8B1F41, Red UMD: #E03A3E
+ * Links #002080 #828282 #696969 #E87722, Maroon VT: #8B1F41, Red UMD: #E03A3E, Light blue Mines: #879EC3, Blaster blue Mines: #09396C, Colorado Red MINES: #CC4628
  */
 a {
-  color: 	#8B1F41   ;
+  color: 	#CC4628;
   text-decoration: none; }
   a:visited {
     /*    color: darken($brand-color, 15%); */ }
