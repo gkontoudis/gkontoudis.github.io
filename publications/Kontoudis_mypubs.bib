@@ -1,13 +1,29 @@
-@inproceedings{kontoudis2023IROS,
-  title={Exploration-Exploitation Active Learning of Gaussian Process Surrogates for Adaptive Sampling},
-  author={Kontoudis, George P and Otte, Michael},
-  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  keywords={Gaussian processes, active learning, surrogates, gradient-based optimization},
-  month={October},
-  year={2023}
+@inproceedings{xu2023TNNLS,
+  title={Online, Model-Free Motion Planning in Dynamic Environments: An Intermittent, Finite Horizon Approach with Continuous-Time Q-Learning},
+  abstract = {In this paper, we propose RRT-Q$^{\textrm{\,X}}_{\infty}$, an online and intermittent kinodynamic motion planning framework for dynamic environments with unknown robot dynamics and unknown disturbances. We leverage RRT$^{\textrm{X}}$ for global path planning and rapid replanning to produce waypoints as a sequence of boundary value problems (BVPs). For each BVP, we formulate a finite-horizon, continuous-time zero-sum game, where the control input is the minimizer, and the worst-case disturbance is the maximizer. We propose a \textit{robust intermittent Q-learning} controller for waypoint navigation with completely unknown system dynamics, external disturbances, and intermittent control updates. We execute a relaxed persistence of excitation technique to guarantee that the Q-learning controller converges to the optimal controller. We provide rigorous Lyapunov-based proofs to guarantee the closed-loop stability of the equilibrium point. The effectiveness of the proposed RRT-Q$^{\textrm{\,X}}_{\infty}$ is illustrated with Monte-Carlo numerical experiments in numerous dynamic and changing environments.},
+  author={Xu, Zirui and Kontoudis, George P and Vamvoudakis, Kyriakos G},
+  booktitle={IEEE Transactions on Neural Networks and Learning Systems (TNNLS)},
+  pages={},
+  month={},
+  year={2023},
+  keywords={motion planning, reinforcement learning, optimal control, event-trigger control, game theory},
+  url_pdf = {},
+  url_video = {},
+  doi = {}
 }
 
-@inproceedings{srivastava2022ICRAWS,
+@inproceedings{kontoudis2023IROS,
+  title={Adaptive Exploration-Exploitation Active Learning of Gaussian Processes},
+  author={Kontoudis, George P and Otte, Michael},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  abstract = {Active Learning of Gaussian process (GP) surrogates is an efficient way to model unknown environments in various applications. In this paper, we propose an adaptive exploration-exploitation active learning method (ALX) that can be executed rapidly to facilitate real-time decision making. For the exploration phase, we formulate an acquisition function that maximizes the approximated, expected Fisher information. For the exploitation phase, we employ a closed-form acquisition function that maximizes the total expected variance reduction of the search space. The determination of each phase is established with an exploration condition that measures the predictive accuracy of GP surrogates. Extensive numerical experiments in multiple input spaces validate the efficiency of our method.},
+  keywords={Gaussian processes, active learning, surrogates, gradient-based optimization},
+  month={October},
+  year={2023},
+  url_pdf = {IROS23_Kontoudis_AdaptiveActiveLearningALX.pdf}
+}
+
+@misc{srivastava2022ICRAWS,
   title={Path-Based Sensors: Will the Knowledge of Correlation in Random Variables Accelerate Information Gathering?},
   author={Srivastava, Alkesh K and Kontoudis, George P and Sofge, Donald and Otte, Michael},
   booktitle={IEEE International Conference on Robotics and Automation (ICRA), Workshop on Communication Challenges in Multi-Robot Systems: Perception, Coordination, and Learning},
@@ -28,7 +44,8 @@ development is necessary for optimal outcomes.},
   keywords={Gaussian processes, active learning, surrogates, gradient-based optimization},
   month={May},
   year={2023},
-  url_pdf = {ACC23_Kontoudis_ClosedFormActiveLearningExpectedVarianceReduction.pdf}
+  url_pdf = {ACC23_Kontoudis_ClosedFormActiveLearningExpectedVarianceReduction.pdf},
+  doi = {10.23919/ACC55779.2023.10156350}
 }
 
 @inproceedings{srivastava2022DARS,
