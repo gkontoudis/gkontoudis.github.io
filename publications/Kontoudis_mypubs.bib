@@ -1,5 +1,7 @@
 @inproceedings{mazur2025wearable,
   title={A Wearable Device for Accurate Ankle Movement Evaluation},
+  abstract = { In this paper, two devices were designed to create an accurate sensor platform for distal lower extremity movement monitoring. This sensor platform is intended to facilitate later development of a smart ankle brace or to guide ankle joint rehabilitation. The first device, a scanning apparatus, includes a commercial 3D scanner (EinScan Pro) and it is designed to move the scanner around a subject’s ankle, enabling the creation of a detailed 3D model of subject-specific anatomy with accuracy of 0.5 mm. This 3D model informs correct placement of sensors on the second device, the sensor platform. The sensor platform is equipped with two Inertial Measurement Units and a Micro-Controller Unit to monitor foot rotations around the subtalar and talocrural axes of the ankle. The reference IMU is placed on the tibia bone as the reference frame, while the measurement IMU is placed on the intermediate cuneiform,
+representing the moving frame of interest. A custom flexible printed circuit board was fabricated to integrate the IMUs and MCU and ensure comfortable usage of the device. The sensor platform enables efficient data collection with the ability of wireless streaming to MATLAB, where the data is formatted for the OpenSense module of OpenSim. Both qualitative and quantitative validations were performed for ankle rotation angles and the measurement error was calculated to be 2.430 $\pm$ 0.270 across three replications, each consisting of 120-second trials, with a peak-to-peak mean angle measurement error equal to 0.7280. Results of motion tracking and simulations are available at https://youtu.be/i24nhEXNHkw.},
   author={Mazur, Mykola and Kontoudis, George P and Petrella, Anthony},
   booktitle={International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
   year={2025}
@@ -44,7 +46,10 @@
   abstract = {In this paper, we propose RRT-Q$^{\textrm{X}}_{\infty}$, an online and intermittent kinodynamic motion planning framework for dynamic environments with unknown robot dynamics and unknown disturbances. We leverage RRT$^{\textrm{X}}$ for global path planning and rapid replanning to produce waypoints as a sequence of boundary value problems (BVPs). For each BVP, we formulate a finite-horizon, continuous-time zero-sum game, where the control input is the minimizer, and the worst-case disturbance is the maximizer. We propose a \textit{robust intermittent Q-learning} controller for waypoint navigation with completely unknown system dynamics, external disturbances, and intermittent control updates. We execute a relaxed persistence of excitation technique to guarantee that the Q-learning controller converges to the optimal controller. We provide rigorous Lyapunov-based proofs to guarantee the closed-loop stability of the equilibrium point. The effectiveness of the proposed RRT-Q$^{\textrm{X}}_{\infty}$ is illustrated with Monte-Carlo numerical experiments in numerous dynamic and changing environments.},
   author={Xu, Zirui and Kontoudis, George P and Vamvoudakis, Kyriakos G},
   journal={IEEE Transactions on Neural Networks and Learning Systems (TNNLS)},
-  year={2023},
+  year={2024},
+  volume={35},
+  number={12},
+  pages={17425-17439},
   keywords={motion planning, reinforcement learning, optimal control, event-trigger control, game theory},
   url_pdf= {/publications/TNNLS23_Xu_OnlineRobustIntermittentMotionPlanningDynamicChangingEnvironments.pdf},
   url_video = {https://youtu.be/iS_PzDmlpfs},
@@ -94,6 +99,7 @@ development is necessary for optimal outcomes.},
   booktitle={International Symposium on Distributed Autonomous Robotic Systems (DARS)},
   abstract = {In this paper, we present a distributed information-gathering algorithm for multi-robot systems that use multiple path-based sensors to infer the locations of hazards within the environment. Path-based sensors output binary observations, reporting whether or not an event (like robot destruction) has occurred somewhere along a path, but without the ability to discern where along a path an event has occurred. Prior work has shown that path-based sensors can be used for search and rescue in hazardous communication-denied environments---sending robots into the environment one-at-a-time. We extend this idea to enable multiple robots to search the environment simultaneously. The search space contains targets (human survivors) amidst hazards that can destroy robots (triggering a path-based hazard sensor). We consider a case where communication from the unknown feld is prohibited due to communication loss, jamming, or stealth. The search eﬀort is distributed among multiple robots using an entropy-weighted Voronoi partitioning of the environment, such that during each search round all regions have approximately equal information entropy. In each round, every robot is assigned a region in which its search path is calculated. Numerical Monte Carlo simulations are used to compare this idea to other ways of using path-based sensors on multiple robots. The experiments show that dividing search eﬀort using entropy-weighted Voronoi partitioning outperforms the other methods in terms of the information gathered and computational cost.},
   year={2022},
+ pages={286--299},
   keywords={path planning, multi-agent systems,bayesian inference},
   url_pdf = {DARS22_Srivastava_DistributedMultiRobotInformationGatheringPathBasedSensorsEntropyWeightedVoronoi.pdf}
 }
