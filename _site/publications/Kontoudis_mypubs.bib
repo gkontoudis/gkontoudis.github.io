@@ -1,10 +1,27 @@
+@article{kontoudis2025TMLCN,
+  title={Multi-Agent Federated Learning using Covariance-Based Nearest Neighbor Gaussian Processes},
+  abstract = {In this paper, we propose scalable methods for Gaussian process (GP) prediction in decentralized multi-agent systems. Multiple aggregation techniques for GP prediction are decentralized with the use of iterative and consensus methods. Moreover, we introduce a covariance-based nearest neighbor selection strategy that leverages cross-covariance similarity, enabling subsets of agents to make accurate predictions. The proposed decentralized schemes preserve the consistency properties of their centralized counterparts, while adhering to federated learning principles by restricting raw data exchange between agents. We validate the efficacy of the proposed decentralized algorithms with numerical experiments on real-world sea surface temperature and ground elevation map datasets across multiple fleet sizes.},
+  author={Kontoudis, George P and Stilwell, Daniel J},
+  journal={IEEE Transactions on Machine Learning in Communications and Networking},
+  year={2025},
+  volume={},
+  pages={},
+  keywords={Gaussian processes, multi-agent systems, decentralized networks},
+  url_pdf= {TMLCN25_Kontoudis_DecentralizedGPPrediction.pdf},
+  url_code={https://github.com/gkontoudis/decentralized-GP/tree/main/DEC-GP_prediction}
+  doi = {}
+}
+
 @inproceedings{mazur2025wearable,
   title={A Wearable Device for Accurate Ankle Movement Evaluation},
   abstract = { In this paper, two devices were designed to create an accurate sensor platform for distal lower extremity movement monitoring. This sensor platform is intended to facilitate later development of a smart ankle brace or to guide ankle joint rehabilitation. The first device, a scanning apparatus, includes a commercial 3D scanner (EinScan Pro) and it is designed to move the scanner around a subject’s ankle, enabling the creation of a detailed 3D model of subject-specific anatomy with accuracy of 0.5 mm. This 3D model informs correct placement of sensors on the second device, the sensor platform. The sensor platform is equipped with two Inertial Measurement Units and a Micro-Controller Unit to monitor foot rotations around the subtalar and talocrural axes of the ankle. The reference IMU is placed on the tibia bone as the reference frame, while the measurement IMU is placed on the intermediate cuneiform,
 representing the moving frame of interest. A custom flexible printed circuit board was fabricated to integrate the IMUs and MCU and ensure comfortable usage of the device. The sensor platform enables efficient data collection with the ability of wireless streaming to MATLAB, where the data is formatted for the OpenSense module of OpenSim. Both qualitative and quantitative validations were performed for ankle rotation angles and the measurement error was calculated to be 2.430 $\pm$ 0.270 across three replications, each consisting of 120-second trials, with a peak-to-peak mean angle measurement error equal to 0.7280. Results of motion tracking and simulations are available at https://youtu.be/i24nhEXNHkw.},
   author={Mazur, Mykola and Kontoudis, George P and Petrella, Anthony},
   booktitle={International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
-  year={2025}
+  year={2025},
+  url_pdf ={EMBC25_Mazur_WerableDeviceAccurateAnkleMovementEvaluation},
+  url_video = {https://youtu.be/i24nhEXNHkw?si=FsrE67GQAuliecxr},
+  doi = {10.1109/EMBC58623.2025.11254109}
 }
 
 @inproceedings{mazur2025wireless,
@@ -38,6 +55,7 @@ representing the moving frame of interest. A custom flexible printed circuit boa
   keywords={Gaussian processes, distributed optimization, multi-agent systems, decentralized networks},
   url_pdf = {MRS23_Kontoudis_Decentralized_GP_Training.pdf},
   url_video = {https://youtu.be/8Tz8ande5Gk?si=6tAo4m6hac2jsJdu},
+  url_code = {https://github.com/gkontoudis/decentralized-GP/tree/main/DEC-GP_training}
   doi = {10.1109/MRS60187.2023.10416790}
 }
 
@@ -199,7 +217,7 @@ development is necessary for optimal outcomes.},
   keywords={multi-agent systems, Gaussian processes, decentralized networks},
   url_pdf  = {ICRA21_Kontoudis_DistributedNestedGaussianProcesses.pdf},
   url_video = {https://youtu.be/uHK5e-EFKEU},
-  url_code = {https://github.com/gkontoudis/decentralized-GP},
+  url_code = {https://github.com/gkontoudis/decentralized-GP/tree/main/DEC-GP_prediction},
   doi = {10.1109/ICRA48506.2021.9561566}
 }
 
